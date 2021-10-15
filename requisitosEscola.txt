@@ -1,0 +1,18 @@
+Aplicação para uma escola: Vocês podem definir dentro da equipe um cliente e fazer a elaboração da análise de requisitos.
+
+Requisitos:
+
+- É uma escola de ensino fundamental e médio (professores por disciplina);
+- Precisa de um cadastro para inserir os professores contratados (já cadastrados no RH) e relacionar com as disciplinas;
+
+- Cadastro e controle dos professores
+	> Id (banco) - string
+	> Nome - string
+	> CPF - string
+	> Disciplina - string
+
+- Listar o nome do professor e as infos dele;
+- Uso restrito à secretaria da escola;
+- Pode editar e excluir as informações;
+- Usar MongoDB;
+- Design clean;
